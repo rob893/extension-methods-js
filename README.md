@@ -7,6 +7,7 @@ This package provides a function that will bind an extension type to whatever ta
 
 1. [Installation](#installation)
 2. [Basic Usage](#basic-usage)
+3. [Documentation](#documentation)
 
 ## Installation:
 
@@ -66,3 +67,7 @@ const set = new Set([1, 2, 3]);
 // Sets now have extension methods.
 set.pipe(x => console.log(x));
 ```
+
+## Documentation
+
+Please see full documentation [here](https://rob893.github.io/extension-methods-js/).
