@@ -1,0 +1,6 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Extension Methods JS",
+  "excludePrivate": true,
+  "excludeProtected": true
+}
