@@ -16,6 +16,8 @@ npm i extension-methods-js
 
 ## Basic Usage:
 
+This function will modify the prototype of the target types. It will not override any existing functions so be sure the name of your extension methods are not the same as any static or instance methods on your target type.
+
 ```typescript
 import { bindExtensions } from 'extension-methods-js';
 
