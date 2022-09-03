@@ -7,7 +7,7 @@ class ArrayExtensions {
 }
 
 class SetExtensions {
-  public static pipe<TSource>(set: TSource[], action: (item: TSource) => void): void {
+  public static pipe<TSource>(set: Set<TSource>, action: (item: TSource) => void): void {
     for (const item of set) {
       action(item);
     }
